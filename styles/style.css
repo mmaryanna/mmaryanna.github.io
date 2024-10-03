@@ -10,7 +10,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 150vh;
+    height: 150vh; /* Висота сторінки 150% від висоти вікна */
 }
 
 .container {
@@ -55,6 +55,9 @@ h1 {
 /* Стилі для блоку з фотографіями */
 .image-container {
     margin-top: 60px; /* Більший відступ зверху */
+    display: flex;
+    justify-content: center;
+    gap: 40px; /* Відстань між зображеннями */
 }
 
 figure {
@@ -62,8 +65,9 @@ figure {
 }
 
 .image-container img {
-    width: avto; /* Збільшено ширину зображення */
-    height: avto; /* Автоматичне масштабування висоти */
+    width: auto; /* Виправлено: автоматична ширина зображення */
+    height: auto; /* Виправлено: автоматична висота зображення */
+    max-width: 400px; /* Максимальна ширина зображення, щоб вони не були занадто великими */
     border-radius: 10px; /* Згладжені краї */
 }
 
@@ -73,4 +77,3 @@ figcaption {
     font-size: 18px;
     color: #333;
 }
-
