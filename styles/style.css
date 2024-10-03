@@ -9,9 +9,11 @@ body {
     background-color: #F8D7DA;
     display: flex;
     justify-content: center;
-    align-items: center;
-    height: 150vh; /* Висота сторінки 150% від висоти вікна */
+    align-items: flex-start; /* Починаємо вирівнювання з верхньої частини */
+    min-height: 100vh; /* Мінімальна висота сторінки */
+    padding-top: 20px; /* Додаємо відступ зверху, якщо потрібно */
 }
+
 
 .container {
     text-align: center;
