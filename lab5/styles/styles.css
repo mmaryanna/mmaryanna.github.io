@@ -1,0 +1,94 @@
+@font-face {
+  font-family: '3Dumb';
+  src: url('/fonts/3Dumb.ttf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(135deg, #EF9DB3 0%, #F3A8BC 50%, #DC8494 100%);
+}
+
+#root {
+  width: 100%;
+  text-align: center;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.logo-item {
+  background-color: rgb(225, 158, 180);
+  padding: 15px;
+  border-radius: 50%;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.8);
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo-item-image img {
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 50%;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px;
+  margin-top: 20px;
+}
+
+.content-item-text {
+  max-width: 40%;
+  text-align: left;
+}
+
+.content-item-text h1 {
+  font-family: '3Dumb', cursive; 
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.content-item-text p {
+  font-family: 'Caveat', cursive; 
+  font-size: 24px;
+  line-height: 1.6;
+  color: #333;
+}
+
+.content-item-image {
+  max-width: 50%;
+}
+
+.image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 15px;
+}
+
+/* .icon-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px; 
+} */
+
+.icon {
+  font-size: 48px;
+  color: #333; 
+  transition: color 0.3s ease; 
+}
+
+.icon:hover {
+  color: #EF9DB3; 
+}
