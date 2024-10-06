@@ -1,9 +1,17 @@
 @font-face {
   font-family: '3Dumb';
-  src: url('/lab5/fonts/3Dumb.ttf') format('opentype');
+  
+  src: url('/lab5/fonts/3Dumb.eot'); /* IE9 Compat Modes */
+  src: url('/lab5/fonts/3Dumb.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('/lab5/fonts/3Dumb.woff') format('woff'), /* Modern Browsers */
+       url('/lab5/fonts/3Dumb.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('/lab5/fonts/3Dumb.svg#3Dumb') format('svg'), /* Legacy iOS */
+       url('/lab5/fonts/3Dumb.otf') format('opentype'); /* Modern Browsers */
+
   font-weight: normal;
   font-style: normal;
 }
+
 
 body {
   margin: 0;
